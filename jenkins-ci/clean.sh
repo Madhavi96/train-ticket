@@ -13,7 +13,7 @@ sudo docker rmi codewisdom/ts-travel2-service:latest
 sudo docker rmi codewisdom/ts-preserve-service:latest
 sudo docker rmi codewisdom/ts-preserve-other-service:latest
 sudo docker rmi codewisdom/ts-basic-service:latest
-sudo docker rmi codewisdom/ts-ticketinfo-service:latest
+# sudo docker rmi codewisdom/ts-ticketinfo-service:latest
 sudo docker rmi codewisdom/ts-price-service:latest
 sudo docker rmi codewisdom/ts-notification-service:latest
 sudo docker rmi codewisdom/ts-security-service:latest
@@ -55,7 +55,7 @@ sudo docker rmi ts/ts-travel2-service:latest
 sudo docker rmi ts/ts-preserve-service:latest
 sudo docker rmi ts/ts-preserve-other-service:latest
 sudo docker rmi ts/ts-basic-service:latest
-sudo docker rmi ts/ts-ticketinfo-service:latest
+# sudo docker rmi ts/ts-ticketinfo-service:latest
 sudo docker rmi ts/ts-price-service:latest
 sudo docker rmi ts/ts-notification-service:latest
 sudo docker rmi ts/ts-security-service:latest

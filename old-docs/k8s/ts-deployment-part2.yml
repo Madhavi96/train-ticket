@@ -678,23 +678,23 @@ spec:
 
 ---
 
-apiVersion: extensions/v1beta1
-kind: Deployment
-metadata:
-  name: ts-ticketinfo-service
-spec:
-  replicas: 1
-  template:
-    metadata:
-      labels:
-        app: ts-ticketinfo-service
-    spec:
-      containers:
-      - name: ts-ticketinfo-service
-        image: 10.141.211.160:5000/master/cluster-ts-ticketinfo-service
-        imagePullPolicy: Always
-        ports:
-        - containerPort: 15681
+# apiVersion: extensions/v1beta1
+# kind: Deployment
+# metadata:
+#   name: ts-ticketinfo-service
+# spec:
+#   replicas: 1
+#   template:
+#     metadata:
+#       labels:
+#         app: ts-ticketinfo-service
+#     spec:
+#       containers:
+#       - name: ts-ticketinfo-service
+#         image: 10.141.211.160:5000/master/cluster-ts-ticketinfo-service
+#         imagePullPolicy: Always
+#         ports:
+#         - containerPort: 15681
 
 ---
 
